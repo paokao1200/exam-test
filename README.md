@@ -156,31 +156,9 @@ docker ps
 | -------- | ---------------------- |
 | Frontend | http://localhost       |
 | API      | http://localhost/api   |
-
 Note: Can be used Postman for test api.
+
 ---
-
-# Django Management Commands
-
-Run Django commands inside the backend container.
-
-### Apply migrations
-
-```bash
-docker compose exec backend python manage.py migrate
-```
-
-### Create superuser
-
-```bash
-docker compose exec backend python manage.py createsuperuser
-```
-
-### Open Django shell
-
-```bash
-docker compose exec backend python manage.py shell
-```
 
 ---
 
